@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/diceBG.jpg) no-repeat;
+    background-size: auto 200%;
+}
+.box{
+    width: 450px;
+    border-radius: 20%;
+    background: rgba(22, 14, 4, 0.9);
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box-img{
+    border-radius: 45%;
+    width:200px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.box p{
+    font-size: 20px;
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: orange;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all ease-in-out 200ms;
+}
+.box li a:hover{
+    color: white;
+}
